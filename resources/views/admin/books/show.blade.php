@@ -10,8 +10,8 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-                        
-                        
+
+                        <img width="150" src={{ asset("storage/images/" . $book->book_image) }} />
                         <p><b>Title:</b> {{ $book->title }}</p>
                         <p><b>Description:</b> {{ $book->description }}</p>
                         <p><b>ISBN:</b> {{ $book->isbn }}</p>                        
